@@ -1,2 +1,2 @@
 FROM nginx:alpine
-COPY . /usr/share/nginx/html
+COPY webserver.html /usr/share/nginx/html/webserver.html
